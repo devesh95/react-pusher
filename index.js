@@ -1,4 +1,5 @@
 import React, { Component, PropTypes as T } from 'react';
+import { View } from 'react-native'; 
 
 export default class Pusher extends Component {
   static propTypes = {
@@ -59,7 +60,7 @@ export default class Pusher extends Component {
   }
 
   render() {
-    return <noscript />;
+    return <View></View>;
   }
 }
 
